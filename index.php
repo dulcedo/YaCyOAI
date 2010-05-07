@@ -147,8 +147,8 @@ echo '</table>';
 echo "<center>";
 echo "<a href=?s=".$s."&start=".$vstart."><img src=images/navdl.gif></a>&nbsp;&nbsp;";
 echo "<a href=?s=".$s."&start=".$nstart."><img src=images/navdr.gif></a>";
-echo "</center>";
-echo "<hr>".print_r($search->navigation);
+
+#echo "<hr>".print_r($search->navigation);
 
 ?> 
 <div style="height: 80px;
@@ -163,8 +163,9 @@ background-image: url(hg2pxu-80.gif)">
     <br>This php-script is using the YaCy-API to search several Open Archive sources.
     <br>2010 by dulcedo / yacy.net - CC BySaNc. - http://github.com/dulcedo/YaCyOAI
     <br><font color=black>[Query <?php echo $peer.":".$port; ?> | in:<?php echo substr($querytime,0,5); ?> sec.]</font>
-</div>
 
+</div>
+</center>
 
 </div>
  </body>
